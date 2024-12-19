@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="./index.html" class="back-button">←Home</a>
+<div class="promotion-section">
+    <h2>Customer Service</h2>
+    <p>We're here to help! Reach out to us with any questions or feedback.</p>
+</div>
+
+<div class="customer-service">
+    <h2>Customer Service Form</h2>
+    <form id="service-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="message" style="color: #fff;">Message:</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        <br>
+        <button type="submit" >Submit</button>
+    </form>
+    <p id="response-message" style="color: #1c1f1f; margin-top: 20px;"></p>
+</div>
+
+<script src="script.js"></script>
+<footer>
+    <p>copyright; 2024 Vroom | Designed by Samuel Grant</p>
+</footer>
+<style>
+    .back-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0f5299;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+    color: #333;
+}
+</style>
+</body>
+</html>

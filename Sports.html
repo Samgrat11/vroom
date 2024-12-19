@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Car</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="back-button">←Home</a>
+        <h1>Sports Cars Store</h1>
+        <p>Discover our exclusive range of Sports and Supercars cars available</p>
+    </header>
+    
+    <div class="container">
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/R.39407514933d0c3abb85995565d3e57b?rik=QQ3o5jAYl4AyCw&pid=ImgRaw&r=0" alt="toyota Camry ">
+            <h3>Lamborghini Aventador SVJ</h3>
+            <p>
+                Price: $517,770
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/R.51ae475d3c4001ea5b3cdcbcd5f3ddfd?rik=wXF4Rc0yeIWWdQ&pid=ImgRaw&r=0" alt="BMW M3">
+            <h3>Porsche 911 GT3RS</h3>
+            <p>
+                Price: $224,495
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://cdn.shopify.com/s/files/1/0043/8471/8938/products/154213932748312448_1439x.jpg?v=1555127404" alt="Mercedes-Benz">
+            <h3>Mercedes-Benz AMG GT</h3>
+            <p>
+                Price: $136,050
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://images.carexpert.com.au/resize/3000/-/app/uploads/2022/10/audi-r8-coupe-v10-gt-rwd-2.jpeg" alt="Audi R8">
+            <h3>Audi R8</h3>
+            <p>
+                Price: $161,395
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://img.gta5-mods.com/q75/images/ferrari-sf90-stradale-2020-add-on/604d0a-1.jpg" alt="Ferrari SF90">
+            <h3>Ferrari SF90</h3>
+            <p>
+                Price: $590,000
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/R.96335db3679e46cf41aaf0f0dd237a02?rik=1TXXa8E8rwi8Tg&pid=ImgRaw&r=0" alt="BMW M3">
+            <h3>BMW M3</h3>
+            <p>
+                Price: $77,175
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/OIP.bVjiWUTO6qxmW0zACy9j0AHaE0?rs=1&pid=ImgDetMain" alt="BMW 5 series">
+            <h3>Bugatti Chiron</h3>
+            <p>
+                Price: $2,998,000
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/R.c58aa04740e58a01ef10850a55dbfeeb?rik=1ymnjotw1s6ptw&pid=ImgRaw&r=0" alt="BMW 5 series">
+            <h3>Koenigsegg Agera</h3>
+            <p>
+                Price: $1,330,000
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="sports">
+            <img src="https://th.bing.com/th/id/OIP._ni4aODHfuySF5qP8k1NHgHaE8?rs=1&pid=ImgDetMain" alt="BMW 5 series">
+            <h3>Ford Mustang GT</h3>
+            <p>
+                Price: $69,870
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url(https://img.freepik.com/premium-photo/aerodynamic-body-kit-upgrades-racing-car-complement-energetic-outdoor-surroundings_1151338-19190.jpg);
+            background-size: cover;
+            height: 100hv;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sports {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .sports img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .sports h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .sports p {
+            color: #777;
+            font-size: 14px;
+            margin: 0 10px 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%
+        }
+
+        button:hover{
+            transform: scale(1.0);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0f5299;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+    color: #333;
+}
+    </style>
+
+    <footer>
+        <p>copyright; 2024 Vroom | Designed by Samuel Grant</p>
+    </footer>
+</body>
+</html>

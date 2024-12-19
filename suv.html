@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUVs</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="back-button">←Home</a>
+        <h1>SUVs Store</h1>
+        <p>Discover our exclusive range of SUVs available</p>
+    </header>
+
+    <div class="container">
+        <div class="suv">
+            <img src="https://storage.googleapis.com/gtspirit/uploads/2017/12/Lamborghini-Urus-SUV-5.jpg" alt="Lamborghini">
+            <h3>Lamborghini Urus</h3>
+            <p>
+                Price: $237,848
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/OIP.PSUCr9VJL-H8Mzm2y8U3XAHaE8?rs=1&pid=ImgDetMain" alt="Porsche">
+            <h3>Porsche Cayenne</h3>
+            <p>
+                Price: $84,700
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/OIP.AbHFac5oHioW1WXAaZiK8wHaEK?rs=1&pid=ImgDetMain" alt="Mercedes-Benz">
+            <h3>Mercedes-Benz GLE</h3>
+            <p>
+                Price: $61,850
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/R.dc722b49a5a640c74b490a5f3ada2031?rik=JoiPZB9zB6lm3Q&pid=ImgRaw&r=0" alt="Audi rsq8">
+            <h3>Audi rsq8</h3>
+            <p>
+                Price: $137,495
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/OIP.QEvoSJ3uZSAFz-8Me1554AHaE8?rs=1&pid=ImgDetMain" alt="Honda">
+            <h3>Honda CRV</h3>
+            <p>
+                Price: $31,450
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/R.e7a9765e12a0d5f7aaac080e8839da0e?rik=yugxtL7u2U1kEQ&pid=ImgRaw&r=0" alt="BMW X6">
+            <h3>BMW X6</h3>
+            <p>
+                Price: $76,925
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://th.bing.com/th/id/OIP.kdNOgzMZgUWRcUnHIcgCSgHaEK?rs=1&pid=ImgDetMain" alt="Lincoln">
+            <h3>Lincoln Aviator</h3>
+            <p>
+                Price: $75,995
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://storage.googleapis.com/gtspirit/uploads/2015/09/Bentley-Bentayga-21.jpg" alt="Bentley">
+            <h3>Bentley Bentayga</h3>
+            <p>
+                Price: $208,050
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+        <div class="suv">
+            <img src="https://www.thedrive.com/uploads/2022/10/25/2023-Ford-Escape-ST-Line-Elite_Rapid-Red_01-1.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=2018" alt="Ford">
+            <h3>Ford Escape</h3>
+            <p>
+                Price: $30,990
+            </p>
+            <button>Buy</button><button>Rent</button>
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            background-image: url(https://img.freepik.com/premium-photo/aerodynamic-body-kit-upgrades-racing-car-complement-energetic-outdoor-surroundings_1151338-19190.jpg);
+            background-size: cover;
+            height: 100hv;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .suv {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .suv img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .suv h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .suv p {
+            color: #777;
+            font-size: 14px;
+            margin: 0 10px 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%
+        }
+
+        button:hover{
+            transform: scale(1.0);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .back-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #0f5299;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+    color: #333;
+}
+    </style>
+
+    <footer>
+        <p>copyright; 2024 Vroom | Designed by Samuel Grant</p>
+    </footer>
+</body>
+</html>
